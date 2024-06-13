@@ -6,10 +6,10 @@ assistants:
 - system_prompt: Wir werden Deutsch sprechen
   # gptscripts:
   #   - file: scripts/*.gpt
-  # apis:
-  #   - name: Demo Hiring Pipeline API
-  #     description: List all job vacancies, optionally filter by job title and/or candidate name
-  #     url: https://demos.tryhelix.ai
-  #     schema: ./openapi/jobvacancies.yaml
+  apis:
+    - name: Demo Hiring Pipeline API
+      description: List all job vacancies, optionally filter by job title and/or candidate name
+      url: https://demos.tryhelix.ai
+      schema: ./openapi/jobvacancies.yaml
   # test_suites:
   #   - ./tests/vacancy_tests.yaml
