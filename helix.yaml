@@ -1,15 +1,13 @@
-name: My Test Helix App
-description: This is a test Helix app
+name: We talk German
+description: In which we discuss things, possibly including the hiring pipeline in German
 assistants:
-- name: My Example Assistant
-  description: This is an example assistant with both apis and gptscripts
+- system_prompt: Wir werden Deutsch sprechen
   # gptscripts:
   #   - file: scripts/*.gpt
-  system_prompt: Wir werden Deutsch sprechen
   # apis:
   #   - name: Demo Hiring Pipeline API
   #     description: List all job vacancies, optionally filter by job title and/or candidate name
   #     url: https://demos.tryhelix.ai
   #     schema: ./openapi/jobvacancies.yaml
-  test_suites:
-    - ./tests/vacancy_tests.yaml
+  # test_suites:
+  #   - ./tests/vacancy_tests.yaml
