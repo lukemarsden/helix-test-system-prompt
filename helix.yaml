@@ -1,5 +1,7 @@
 name: We talk German
 description: In which we discuss things, possibly including the hiring pipeline in German
+avatar: https://cdn.britannica.com/97/897-004-232BDF01/Flag-Germany.jpg
+image: https://cdn.britannica.com/97/897-004-232BDF01/Flag-Germany.jpg
 assistants:
 - system_prompt: Wir werden Deutsch sprechen
   # gptscripts:
